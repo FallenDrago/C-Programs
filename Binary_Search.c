@@ -5,20 +5,18 @@ int main()
 {
     int n;  //declaring datatype for size of array
     
-     //to check element found or not
-    
     printf("Enter the Size of Array:");
     scanf("%d",&n); //getting input from user for size of the array
     
     int arr[n];     //declaring array data type
     
-    for(int i = 0; i < n; i++){     //getting the array elements for the elements
+    for(int i = 0; i < n; i++){     //getting the array elements for the array
         
         printf("Enter the Value:");
         scanf("%d",&arr[i]);
     }
     
-    int target; //declaring the target value
+    int target; //declaring the target datatype
     
     printf("Enter the target Value:");      //getting target value from user 
     scanf("%d",&target);
@@ -82,4 +80,5 @@ Enter the Value:50              |
 Enter the target Value:50       |
 Target Element Found 50  
                                                           
+
        
